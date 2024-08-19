@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Noto+Kufi+Arabic:400,700' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" href="styles.css">
+  <title>Featured Image Maker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>Featured Image Maker</h1>
+      <input type="file" id="imageInput" accept="image/*">
+	  <label for="textInput">Headline:</label>
+      <textarea id="textInput" placeholder="Enter text here..."></textarea>
+      <label for="fontSize">Font Size:</label>
+	  <input type="range" id="fontSize" min="0" max="100" step="1" value="40"/>
+      <label for="textColor">Text Color:</label>
+      <input type="color" id="textColor" value="#ffffff">
+      <label for="fontStyle">Font Style:</label>
+      <select id="fontStyle">
+        <option value="normal">Normal</option>
+        <option value="italic">Italic</option>
+      </select>
+	  <br/>
+      <label for="shadowIntensity">Shadow Intensity:</label>
+      <input type="range" id="shadowIntensity" min="0" max="1" step="0.01" value="0"/>
+    </div>
+    <div class="output-container">
+      <img id="outputImage" alt="Generated Image">
+      <a id="downloadLink" download="featured_image.png" style="display: none;">Download Image</a>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
