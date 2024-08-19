@@ -38,6 +38,7 @@ To run this project locally:
    - **Font Style:** Choose between normal or italics for the font style.
    - **Shadow Intensity:** Adjust the slider to set how strong the shadow should appear.
 4. **Download Image:** Save the generated image to your device.
+
 The image will be generated automatically and all changes are visible in real-time.
 
 ## Screenshots
