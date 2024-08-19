@@ -14,14 +14,14 @@ This tool was developed as a project for **Al-Araby Al-Jadeed**, providing a str
 - **Shadow Intensity:** Control the intensity of the image shadow.
 
 ## Live Demo
-You can try the tool live here: [Featured Image Maker](https://harbyj.github.io/featured)
+You can try the tool live here: [Featured Image Maker](https://harbyj.github.io/featured-image)
 
 ## Installation Instructions
 To run this project locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/harbyj/featured.git
+    git clone https://github.com/harbyj/featured-image.git
     ```
 2. Navigate to the project directory:
     ```bash
