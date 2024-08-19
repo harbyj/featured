@@ -25,7 +25,7 @@ To run this project locally:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd featured
+    cd featured-image
     ```
 3. Open the `index.html` file in your browser to use the tool locally.
 
